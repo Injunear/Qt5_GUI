@@ -1,9 +1,8 @@
-﻿#-------------------------------------------------
+#-------------------------------------------------
 #
-# Project created by QtCreator 2018-05-09T12:04:28
+# Project created by QtCreator 2018-05-09T12:34:03
 #
 #-------------------------------------------------
-
 QT  += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
@@ -16,11 +15,11 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    mythread.cpp
+        mythread.cpp
 
 LIBS += -lwiringPi
 
 HEADERS  += mainwindow.h \
-    mythread.h
+            mythread.h
 
 FORMS    += mainwindow.ui
